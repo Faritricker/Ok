@@ -68,25 +68,25 @@ logo = """
   
   
   
-jalan("\033[1;96m♤͜͡♤════✷ FARIYA KHAN OFFICIAL")
-jalan("\033[1;96m♤͜͡♤════✷ I M NOT RESPONSIBLE FOR ANY MISS USE")
-jalan("\033[1;96m♤͜͡♤════✷ IT IS FOR ONLY EDUCATION PURPOSE")
+
 jalan("\033[1;91m♤͜͡♤════✷ YOU ARE AGREE , TYPE OK")
 
 CorrectAccept = "OK"
-
-loop = 'true'
+CorrectAcceptPass = "Continue"
+lloop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;93mFARIYA KHAN Not Responsible For Any MIss Use  \x1b[1;96m➤")
+    username = raw_input("\033[1;96m[☆] \x1b[1;93mFARIYA KHAN Not Responsible For Any MIss Use Type OK \x1b[1;96m➤")
     if (username == CorrectAccept):
+    	passward = raw_input("\033[1;96m[☆] \x1b[1;93mTo Start Commands Type Continue  \x1b[1;96m➤")
+        if (password == CorrectAcceptPass):
             print "Logged in successfully as " + username
             loop = 'false'
-    else:
-        print "Wrong Password"
-        os.system('xdg-open https://m.facebook.com/faritricker007')
+        else:
+            print "Wrong Password"
+            os.system('xdg-open https://m.facebook.com/Faritricker007')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://m.facebook.com/faritricker007')
+        os.system('xdg-open https://m.facebook.com/Faritricker007')
 
 back = 0
 berhasil = []
