@@ -78,7 +78,7 @@ CorrectAccept = "OK"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;96m[☆] \x1b[1;93mFARIYA KHAN Not Responsible For Any MIss Use  \x1b[1;96m➤")
-    if (username == CorrectUsername):
+    if (username == CorrectAccept):
             print "Accept successfully as " + username
             loop = 'True'
     else:
