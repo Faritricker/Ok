@@ -79,8 +79,6 @@ loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;96m[☆] \x1b[1;93mFARIYA KHAN Not Responsible For Any MIss Use  \x1b[1;96m➤")
     if (username == CorrectAccept):
-    	username = raw_input("\033[1;96m[☆] \x1b[1;93mFARIYA KHAN Not Responsible For Any MIss Use  \x1b[1;96m➤")
-        if (password == CorrectAccept):
             print "Logged in successfully as " + username
             loop = 'false'
         else:
