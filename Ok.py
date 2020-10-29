@@ -68,9 +68,7 @@ logo = """
   
   
   
-jalan("\033[1;96m♤͜͡♤════✷ FARIYA KHAN OFFICIAL")
-jalan("\033[1;96m♤͜͡♤════✷ I M NOT RESPONSIBLE FOR ANY MISS USE")
-jalan("\033[1;96m♤͜͡♤════✷ IT IS FOR ONLY EDUCATION PURPOSE")
+
 jalan("\033[1;91m♤͜͡♤════✷ YOU ARE AGREE , TYPE OK")
 
 CorrectAccept = "OK"
