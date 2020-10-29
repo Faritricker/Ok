@@ -79,12 +79,16 @@ loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;96m[☆] \x1b[1;93mFARIYA KHAN Not Responsible For Any MIss Use  \x1b[1;96m➤")
     if (username == CorrectAccept):
-            print "Accept successfully as " + username
-            loop = 'True'
+    	username = raw_input("\033[1;96m[☆] \x1b[1;93mFARIYA KHAN Not Responsible For Any MIss Use  \x1b[1;96m➤")
+        if (password == CorrectAccept):
+            print "Logged in successfully as " + username
+            loop = 'false'
+        else:
+            print "Wrong Password"
+            os.system('xdg-open https://m.facebook.com/faritricker007')
     else:
-        print "CorrectAccept"
-        os.system('xdg-open https://m.facebook.com/Faritricker007')
-
+        print "Wrong Username"
+        os.system('xdg-open https://m.facebook.com/faritricker007')
 
 back = 0
 berhasil = []
