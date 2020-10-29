@@ -68,12 +68,14 @@ logo = """
   
   
   
-
+jalan("\033[1;96m♤͜͡♤════✷ FARIYA KHAN OFFICIAL")
+jalan("\033[1;96m♤͜͡♤════✷ I M NOT RESPONSIBLE FOR ANY MISS USE")
+jalan("\033[1;96m♤͜͡♤════✷ IT IS FOR ONLY EDUCATION PURPOSE")
 jalan("\033[1;91m♤͜͡♤════✷ YOU ARE AGREE , TYPE OK")
 
 CorrectAccept = "OK"
 CorrectAcceptPass = "Continue"
-lloop = 'true'
+loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;96m[☆] \x1b[1;93mFARIYA KHAN Not Responsible For Any MIss Use Type OK \x1b[1;96m➤")
     if (username == CorrectAccept):
