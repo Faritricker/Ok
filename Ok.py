@@ -765,7 +765,7 @@ def numericx():
 
 \033[1;97m______________________________________________
 """
-       u = raw_input('Masukkan username > ')
+       u = raw_input('Enter Username > ')
        url = 'https://www.facebook.com/'+u
        r = requests.get(url).text
        name = re.search('Title">(.*?)</', r).group(1).strip('| Facebook')
