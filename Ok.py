@@ -772,8 +772,7 @@ def numericx():
 	print 'Username tidak di temukan'
     
     print "\033[1;97m ⚔«--------------------------------------------»⚔"
-print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed \033[1;97m....'
-raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")	
+ 
 
     
 if __name__ == '__main__':
