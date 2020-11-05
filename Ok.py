@@ -187,8 +187,8 @@ def login1():
                 time.sleep(0.05)
 		print logo
 		print "\033[1;97m╔══════════════════════════════════════════════════╗"
-		jalan('\033[1;96m║[⚡]\x1b[1;91mDO NOT USE OLD ACCOUNT TO LOGIN\x1b[1;96m [⚡]                         33[1;96m║' )
-		jalan('\033[1;96m║[⚡]\x1b[1;91mUSE A FRESH/NEW ACCOUNT TO LOGIN\x1b[1;96m[⚡]                         33[1;96m║' )
+		jalan('\033[1;96m║[⚡]\x1b[1;91mDO NOT USE OLD ACCOUNT TO LOGIN\x1b[1;96m [⚡]')
+		jalan('\033[1;96m║[⚡]\x1b[1;91mUSE A FRESH/NEW ACCOUNT TO LOGIN\x1b[1;96m[⚡]')
 		print "\033[1;97m╚══════════════════════════════════════════════════╝"
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN WITH FACEBOOK \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
