@@ -87,7 +87,7 @@ logo = """
 \033[0;31m \033[1;31m╔═════════════════════════════════════════════╗
 \033[0;31m \033[1;31m║\033[0;33m\033[1;33m* CREATOR : \033[1;39mFARIYA KHAN                      \033[1;31m║
 \033[0;31m \033[1;31m║\033[0;33m\033[1;33m* FACEBOOK: \033[1;39mm.facebook.com/Faritricker007    \033[1;31m║
-\033[0;31m \033[1;31m║\033[0;33m\033[1;33m* PAGE  : \033[1;39mTech Fari                          \033[1;31m║
+\033[0;31m \033[1;31m║\033[0;33m\033[1;33m* PAGE    : \033[1;39mTech Fari                        \033[1;31m║
 \033[0;31m \033[1;31m╚═════════════════════════════════════════════╝"""
 
 jalan("\033[1;96m♤͜͡♤════✷ FARIYA KHAN OFFICIAL")
@@ -121,7 +121,7 @@ print  """
 \033[0;31m \033[1;31m╔═════════════════════════════════════════════╗
 \033[0;31m \033[1;31m║\033[0;33m\033[1;33m* CREATOR : \033[1;39mFARIYA KHAN                      \033[1;31m║
 \033[0;31m \033[1;31m║\033[0;33m\033[1;33m* FACEBOOK: \033[1;39mm.facebook.com/Faritricker007    \033[1;31m║
-\033[0;31m \033[1;31m║\033[0;33m\033[1;33m* PAGE  : \033[1;39mTech Fari                          \033[1;31m║
+\033[0;31m \033[1;31m║\033[0;33m\033[1;33m* PAGE    : \033[1;39mTech Fari                        \033[1;31m║
 \033[0;31m \033[1;31m╚═════════════════════════════════════════════╝"""
 
 CorrectUsername = "HATERSINMYFOOT"
@@ -129,9 +129,9 @@ CorrectPassword = "OWNERFARIYAKHAN"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;91m🔐 \x1b[1;91mTool Username \x1b[1;91m»» \x1b[1;93m")
+    username = raw_input("\033[1;96m[☆] \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;94m🔐 \x1b[1;91mTool Password \x1b[1;91m»» \x1b[1;92m")
+    	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
@@ -146,13 +146,13 @@ def login():
 	os.system('clear')
 	print logo
 	print "\033[1;97m ----------------------------------------------"
-	print "\033[1;96m[•1•]\033[1;92m Login With Facebook---------◉ "
+	print "\033[1;96m[•1•]\033[1;92m Login With Facebook---------⚫ "
 	time.sleep(0.05)
-	print "\033[1;96m[•2•]\033[1;92m Login With Access Token------◉"
+	print "\033[1;96m[•2•]\033[1;92m Login With Access Token-----⚫ "
 	time.sleep(0.05)
-	print "\033[1;96m[•3•]\033[1;92m Follow Me On Facebook-------◉ "
+	print "\033[1;96m[•3•]\033[1;92m Follow Me On Facebook-------⚫ "
 	time.sleep(0.05)
-	print "\033[1;96m[•0•]\033[1;92m Logout Commands--------------◉"
+	print "\033[1;96m[•0•]\033[1;92m Logout Commands-------------⚫"
 	print "\033[1;97m ----------------------------------------------"
 	pilih_login()
 	
@@ -187,8 +187,8 @@ def login1():
                 time.sleep(0.05)
 		print logo
 		print "\033[1;97m╔══════════════════════════════════════════════════╗"
-		jalan('\033[1;96m║[⚡]\x1b[1;91mDO NOT USE OLD ACCOUNT TO LOGIN\x1b[1;96m [⚡]\033[1;96m║' )
-		jalan('\033[1;96m║[⚡]\x1b[1;91mUSE A FRESH/NEW ACCOUNT TO LOGIN\x1b[1;96m[⚡]\033[1;96m║' )
+		jalan('\033[1;96m║[⚡]\x1b[1;91mDO NOT USE OLD ACCOUNT TO LOGIN\x1b[1;96m [⚡]                         33[1;96m║' )
+		jalan('\033[1;96m║[⚡]\x1b[1;91mUSE A FRESH/NEW ACCOUNT TO LOGIN\x1b[1;96m[⚡]                         33[1;96m║' )
 		print "\033[1;97m╚══════════════════════════════════════════════════╝"
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN WITH FACEBOOK \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
@@ -290,19 +290,19 @@ def menu():
 	print "  \033[1;36;40m\033[1;32;40m[*] Name\033[1;32;40m: "+nama+"  	   \033[1;36;40m"
 	print "  \033[1;36;40m\033[1;32;40m[*] ID  \033[1;32;40m: "+id+"        \033[1;36;92m"
 	print "\033[1;97m --------------------------------------------------"
-	print "\033[1;32;96m[1] \033[1;91m ⊱⟡⊰ \033[1;91mStart Cloning All Countries"
+	print "\033[1;32;98m[1] \033[1;91m 👉 \033[1;91mStart Cloning All Countries"
 	time.sleep(0.05)
-	print "\033[1;32;96m[2] \033[1;91m ⊱⟡⊰ \033[1;96mStart Target Hacking"
+	print "\033[1;32;98m[2] \033[1;91m 👉 \033[1;96mStart Target Hacking"
 	time.sleep(0.05)
-	print "\033[1;32;96m[3] \033[1;91m ⊱⟡⊰ \033[1;91mExtract Email From ID"
+	print "\033[1;32;98m[3] \033[1;91m 👉 \033[1;91mExtract Email From ID"
 	time.sleep(0.05)
-	print "\033[1;32;96m[4] \033[1;91m ⊱⟡⊰ \033[1;96mExtract Ph.number From ID"
+	print "\033[1;32;98m[4] \033[1;91m 👉 \033[1;96mExtract Ph.number From ID"
 	time.sleep(0.05)
-	print "\033[1;32;96m[5] \033[1;91m ⊱⟡⊰ \033[1;91mExtract Numeric ID "
+	print "\033[1;32;98m[5] \033[1;91m 👉 \033[1;91mExtract Numeric ID "
 	time.sleep(0.05)
-	print "\033[1;32;96m[7] \033[1;91m ⊱⟡⊰ \033[1;96mFollow FARIYA Khan On Facebook"
+	print "\033[1;32;98m[7] \033[1;91m 👉 \033[1;96mFollow FARIYA Khan On Facebook"
 	time.sleep(0.05)
-	print "\033[1;32;96m[0] \033[1;91m ⊱⟡⊰ \033[1;91mLogout Account"
+	print "\033[1;32;98m[0] \033[1;91m 👉 \033[1;91mLogout Account"
 	print "\033[1;97m --------------------------------------------------"
 	
 	pilih()
